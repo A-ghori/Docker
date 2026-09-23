@@ -26,3 +26,12 @@
 ## Registry : A service (like Docker Hub) to store and distribute images.
 
 
+# The distinction between a Docker image and a container is foundational to how Docker works:
+
+## Docker Image : Think of this as a static snapshot or a template. It is a read-only file that contains the source code, libraries, dependencies, and configuration files required to run an application. It is the "recipe" or "blueprint" for your software.
+
+## Docker Container : This is the executable, running instance of an image. When you run an image, you create a container—an isolated, lightweight environment where your application actually executes. While an image is the file on your disk, the container is the live process running on your system.
+
+## In short, you build an image and then you run it as a container
+
+
